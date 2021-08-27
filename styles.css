@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    font-family: sans-serif;
+    background-color: #aed0a5;
+}
+
+#gameScreen {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('hinted-JetBrainsMono-SemiBold.woff2') format('woff2'),
+    url('hinted-JetBrainsMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
